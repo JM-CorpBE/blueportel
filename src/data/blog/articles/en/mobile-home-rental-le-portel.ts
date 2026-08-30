@@ -28,7 +28,7 @@ export const mobileHomeRentalLePortel: BlogArticle = {
     alt: "Sea-view mobile home on the cliff in Le Portel, Opal Coast",
   },
   datePublished: "2025-09-15",
-  dateModified: "2026-05-30",
+  dateModified: "2026-08-30",
   readingTimeMinutes: 8,
   intro: [
     "To rent a mobile home in Le Portel with a real sea view, the address is simple: **Le Phare d'Opale residential campsite, on top of the cliff, where our two Blueportel mobile homes look directly out over the Channel.** We rent them directly — no agency, no platform fees. You talk to the owners, not a call centre.",
@@ -81,7 +81,7 @@ export const mobileHomeRentalLePortel: BlogArticle = {
       id: "direct",
       title: "Booking direct: what you gain",
       paragraphs: [
-        "Most mobile home rentals go through platforms that add **service fees (12 to 16%), flat cleaning fees and commissions**. Book directly with us and you pay the fair price, with a single point of contact — us — reachable before and during your stay.",
+        "Most mobile home rentals go through platforms that add **service fees (12 to 16%), flat cleaning fees and commissions**. [Book directly with us online](/pages/reserver) and you pay the fair price, with a single point of contact — us — reachable before and during your stay.",
         "In practice, our guests receive the **tide times**, the beach map and our local tips, and we adapt the arrival time to your journey. A question about your dates? The [contact page](/pages/contact) usually replies the same day.",
       ],
     },

@@ -5,7 +5,7 @@ export const visitNausicaa: BlogArticle = {
   translationKey: "nausicaa-complete-guide",
   locale: "en",
   category: "guide",
-  metaTitle: "Visiting Nausicaá in 2026: tickets, duration, tips (full guide)",
+  metaTitle: "Visiting Nausicaá 2026: tickets, opening hours, duration & tips",
   metaDescription:
     "Plan your visit to Nausicaá, Europe's largest aquarium: 2026 tickets and prices, ideal duration, best time slots to avoid crowds, recommended route, where to stay and what to do nearby. Local hosts' advice.",
   keywords: [
@@ -28,7 +28,7 @@ export const visitNausicaa: BlogArticle = {
     alt: "The coast of Boulogne-sur-Mer and Le Portel, 10 minutes from the Nausicaá aquarium",
   },
   datePublished: "2026-06-11",
-  dateModified: "2026-06-11",
+  dateModified: "2026-08-30",
   readingTimeMinutes: 14,
   intro: [
     "Nausicaá, in Boulogne-sur-Mer, is **Europe's largest aquarium**: 10,000 m² of exhibitions, around 58,000 animals from 1,600 species, and a high-seas tank holding 10,000 m³ — four Olympic pools — viewed through a 20 m × 5 m window, one of the largest in the world. For a successful visit, remember three things: allow **4 to 5 hours** on site, **book dated tickets online**, and arrive at the **9:30am opening or after 2:30pm** to dodge the crowd peak.",
@@ -116,6 +116,10 @@ export const visitNausicaa: BlogArticle = {
         "**Food**: the main restaurant overlooks the giant tank (book at the desk in the morning during peak season), plus a quick cafeteria and the beach brasseries 2 minutes away. Picnics aren't allowed inside, but the beach is right outside — our preferred option in fine weather.",
         "**Accessibility**: the whole site is wheelchair-accessible, with chairs lent at reception. Dogs aren't admitted (except guide dogs). Lockers are available at the entrance.",
       ],
+      callout: {
+        title: "2026 opening hours (check before you go)",
+        text: "Nausicaá usually opens at 9.30am year-round; closing varies by season — around 6.30pm in summer, 6pm the rest of the year, with last entry 1h30 before. During the October 2026 half-term the crowds pick up sharply: book the 9.30am slot online. The exact daily hours are posted on the official website.",
+      },
     },
     {
       id: "around",
@@ -130,7 +134,7 @@ export const visitNausicaa: BlogArticle = {
       id: "where-to-stay",
       title: "Where to stay near Nausicaá",
       paragraphs: [
-        "Boulogne-sur-Mer has decent hotels, but they're mostly urban, without views or outdoor space, and full early in season. The solution most families choose: sleep **in Le Portel, 10 minutes from the aquarium**, on the cliff and beach side. You gain quiet, sea views and a gentler budget — see our full [hotel vs Airbnb vs mobile home comparison](/blog/hotel-alternative-boulogne-sur-mer) if you're still undecided.",
+        "Boulogne-sur-Mer has decent hotels, but they're mostly urban, without views or outdoor space, and full early in season. The solution most families choose: [rent a mobile home in Le Portel](/blog/mobile-home-rental-le-portel), **10 minutes from the aquarium**, on the cliff and beach side. You gain quiet, sea views and a gentler budget — see our full [hotel vs Airbnb vs mobile home comparison](/blog/hotel-alternative-boulogne-sur-mer) if you're still undecided.",
         "Our two mobile homes, [Blueportel Prestige](/pages/prestige) (sleeps 6, 3 bedrooms) and [Blueportel Horizon](/pages/horizon) (sleeps 4), sit at Le Phare d'Opale campsite on the Le Portel clifftop: panoramic views over the Channel from the covered terrace, the beach a few hundred metres away, a full kitchen for post-aquarium dinners and private parking. Booking guests rate our location 9.5/10 — Nausicaá is their first destination, the terrace sunset their first memory.",
         "Book early for school holidays: Nausicaá makes Le Portel a sought-after base from April to September. [Availability is shown online](/pages/disponibilites) in real time.",
       ],

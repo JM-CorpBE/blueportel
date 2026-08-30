@@ -28,7 +28,7 @@ export const locationMobilHomeLePortel: BlogArticle = {
     alt: "Mobil-home vue mer sur la falaise de Le Portel, Côte d'Opale",
   },
   datePublished: "2025-09-15",
-  dateModified: "2026-05-30",
+  dateModified: "2026-08-30",
   readingTimeMinutes: 8,
   intro: [
     "Pour louer un mobil-home à Le Portel avec une vraie vue sur la mer, l'adresse est simple : **le camping résidentiel Le Phare d'Opale, en haut de la falaise, où nos deux mobil-homes Blueportel surplombent directement la Manche.** Nous les louons en direct, sans agence ni frais de plateforme — vous parlez aux propriétaires, pas à un standard.",
@@ -81,7 +81,7 @@ export const locationMobilHomeLePortel: BlogArticle = {
       id: "direct",
       title: "Réserver en direct : ce que vous y gagnez",
       paragraphs: [
-        "La plupart des locations de mobil-home passent par des plateformes qui ajoutent **frais de service (12 à 16 %), frais de ménage forfaitaires et commissions**. En réservant directement avec nous, vous payez le juste prix, et vous avez un interlocuteur unique — nous — joignable avant et pendant le séjour.",
+        "La plupart des locations de mobil-home passent par des plateformes qui ajoutent **frais de service (12 à 16 %), frais de ménage forfaitaires et commissions**. En [réservant directement avec nous en ligne](/pages/reserver), vous payez le juste prix, et vous avez un interlocuteur unique — nous — joignable avant et pendant le séjour.",
         "Concrètement, nos voyageurs reçoivent les **horaires de marée**, le plan de plage et nos bonnes adresses, et nous adaptons l'heure d'arrivée à votre route. Une question sur vos dates ? La [page contact](/pages/contact) répond en général dans la journée.",
       ],
     },

@@ -5,7 +5,7 @@ export const visiterNausicaa: BlogArticle = {
   translationKey: "nausicaa-complete-guide",
   locale: "fr",
   category: "guide",
-  metaTitle: "Visiter Nausicaá en 2026 : tarifs, durée, conseils (guide complet)",
+  metaTitle: "Visiter Nausicaá 2026 : tarifs, horaires, durée et astuces",
   metaDescription:
     "Préparez votre visite de Nausicaá, le plus grand aquarium d'Europe : billets et tarifs 2026, durée idéale, meilleurs créneaux pour éviter la foule, parcours conseillé, où dormir et que faire autour. Conseils d'hôtes locaux.",
   keywords: [
@@ -30,7 +30,7 @@ export const visiterNausicaa: BlogArticle = {
     alt: "La côte de Boulogne-sur-Mer et Le Portel, à 10 minutes de l'aquarium Nausicaá",
   },
   datePublished: "2026-06-11",
-  dateModified: "2026-06-11",
+  dateModified: "2026-08-30",
   readingTimeMinutes: 17,
   intro: [
     "Nausicaá, à Boulogne-sur-Mer, est **le plus grand aquarium d'Europe** : 10 000 m² d'exposition, environ 58 000 animaux de 1 600 espèces, et un bassin de haute mer de 10 000 m³ — l'équivalent de quatre piscines olympiques — que l'on contemple à travers une baie vitrée de 100 m². Pour une visite réussie, retenez trois chiffres : **4 à 5 heures** sur place, des billets **réservés en ligne** à l'avance, et une arrivée à **9 h 30 (ouverture) ou après 14 h 30** pour éviter le pic d'affluence.",
@@ -118,6 +118,10 @@ export const visiterNausicaa: BlogArticle = {
         "**Restauration** : le restaurant principal (vue sur le grand bassin, pensez à réserver le midi en saison), une cafétéria rapide, et les brasseries de la plage de Boulogne à 2 minutes à pied. Le pique-nique n'est pas autorisé à l'intérieur, mais la plage est juste devant — par beau temps, c'est notre option préférée.",
         "**Accessibilité** : l'ensemble du site est accessible aux fauteuils roulants, des fauteuils sont prêtés à l'accueil. Les chiens ne sont pas admis (sauf chiens guides). Vestiaires et consignes disponibles à l'entrée.",
       ],
+      callout: {
+        title: "Horaires 2026 (à vérifier avant de partir)",
+        text: "Nausicaá ouvre généralement à 9 h 30 toute l'année ; la fermeture varie selon la saison — vers 18 h 30 en été, 18 h le reste de l'année, avec dernière entrée 1 h 30 avant. Pendant les vacances de la Toussaint 2026 (fin octobre) l'affluence remonte fortement : réservez le créneau de 9 h 30 en ligne. Les horaires exacts du jour sont affichés sur le site officiel.",
+      },
     },
     {
       id: "autour-de-nausicaa",
@@ -132,7 +136,7 @@ export const visiterNausicaa: BlogArticle = {
       id: "ou-dormir",
       title: "Où dormir près de Nausicaá ?",
       paragraphs: [
-        "Boulogne-sur-Mer compte des hôtels corrects mais souvent urbains, sans vue ni extérieur, et complets tôt en saison. La solution que choisissent la plupart des familles : dormir **à Le Portel, à 10 minutes de l'aquarium**, côté falaise et plage. Vous y gagnez le calme, la vue mer et un budget plus doux — nous avons comparé en détail [mobil-home, hôtel et Airbnb autour de Boulogne](/blog/alternative-hotel-boulogne-sur-mer) si vous hésitez encore sur la formule.",
+        "Boulogne-sur-Mer compte des hôtels corrects mais souvent urbains, sans vue ni extérieur, et complets tôt en saison. La solution que choisissent la plupart des familles : [louer un mobil-home à Le Portel](/blog/location-mobil-home-le-portel), **à 10 minutes de l'aquarium**, côté falaise et plage. Vous y gagnez le calme, la vue mer et un budget plus doux — nous avons comparé en détail [mobil-home, hôtel et Airbnb autour de Boulogne](/blog/alternative-hotel-boulogne-sur-mer) si vous hésitez encore sur la formule.",
         "Nos deux mobil-homes [Blueportel Prestige](/pages/prestige) (6 personnes, 3 chambres) et [Blueportel Horizon](/pages/horizon) (4 personnes) se trouvent au camping Le Phare d'Opale, sur la falaise de Le Portel : vue panoramique sur la Manche depuis la terrasse couverte, plage à quelques centaines de mètres, cuisine équipée pour les retours d'aquarium et parking privatif. Les voyageurs Booking nous attribuent 9,5/10 pour l'emplacement — Nausicaá est leur première destination, le coucher de soleil depuis la terrasse leur premier souvenir.",
         "Réservez tôt pour les vacances scolaires : la proximité de Nausicaá fait de Le Portel un point de chute très demandé d'avril à septembre. Les [disponibilités sont consultables en ligne](/pages/disponibilites) en temps réel.",
       ],

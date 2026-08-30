@@ -5,7 +5,7 @@ export const nausicaaBezoeken: BlogArticle = {
   translationKey: "nausicaa-complete-guide",
   locale: "nl",
   category: "guide",
-  metaTitle: "Nausicaá bezoeken in 2026: tickets, duur, tips (complete gids)",
+  metaTitle: "Nausicaá bezoeken 2026: tickets, openingsuren, duur & tips",
   metaDescription:
     "Bereid uw bezoek aan Nausicaá voor, het grootste aquarium van Europa: tickets en prijzen 2026, ideale duur, beste tijdsloten zonder drukte, aanbevolen route, waar overnachten en wat te doen in de buurt.",
   keywords: [
@@ -28,7 +28,7 @@ export const nausicaaBezoeken: BlogArticle = {
     alt: "De kust van Boulogne-sur-Mer en Le Portel, op 10 minuten van aquarium Nausicaá",
   },
   datePublished: "2026-06-11",
-  dateModified: "2026-06-11",
+  dateModified: "2026-08-30",
   readingTimeMinutes: 14,
   intro: [
     "Nausicaá, in Boulogne-sur-Mer, is **het grootste aquarium van Europa**: 10.000 m² expositie, zo'n 58.000 dieren van 1.600 soorten, en een hogezeebassin van 10.000 m³ — vier olympische zwembaden — achter een kijkvenster van 20 bij 5 meter, een van de grootste ter wereld. Onthoud drie dingen voor een geslaagd bezoek: reken op **4 à 5 uur** ter plaatse, **reserveer uw tickets online**, en kom bij de **opening om 9.30 uur of na 14.30 uur** om de druktepiek te vermijden.",
@@ -116,6 +116,10 @@ export const nausicaaBezoeken: BlogArticle = {
         "**Eten**: het hoofdrestaurant kijkt uit op het reuzenbassin (reserveer 's ochtends in het seizoen), plus een snelle cafetaria en de strandbrasseries op 2 minuten. Picknicken mag niet binnen, maar het strand ligt er vlak voor — bij mooi weer onze favoriete optie.",
         "**Toegankelijkheid**: de hele site is rolstoeltoegankelijk, met leenstoelen aan het onthaal. Honden zijn niet toegelaten (behalve geleidehonden). Lockers aan de ingang.",
       ],
+      callout: {
+        title: "Openingsuren 2026 (check vooraf)",
+        text: "Nausicaá opent doorgaans om 9.30 uur, het hele jaar door; het sluitingsuur verschilt per seizoen — rond 18.30 uur in de zomer, 18 uur de rest van het jaar, met laatste toegang 1u30 vooraf. Tijdens de herfstvakantie 2026 (eind oktober) loopt de drukte fors op: reserveer online het tijdslot van 9.30 uur. De exacte uren van de dag staan op de officiële website.",
+      },
     },
     {
       id: "in-de-buurt",
@@ -130,7 +134,7 @@ export const nausicaaBezoeken: BlogArticle = {
       id: "waar-overnachten",
       title: "Waar overnachten bij Nausicaá?",
       paragraphs: [
-        "Boulogne-sur-Mer heeft degelijke hotels, maar meestal stedelijk, zonder zicht of buitenruimte, en vroeg volgeboekt. De oplossing die de meeste gezinnen kiezen: slapen **in Le Portel, op 10 minuten van het aquarium**, aan de klif- en strandzijde. U wint rust, zeezicht en budget — zie onze volledige [vergelijking hotel / Airbnb / stacaravan](/blog/alternatief-hotel-boulogne-sur-mer) als u nog twijfelt.",
+        "Boulogne-sur-Mer heeft degelijke hotels, maar meestal stedelijk, zonder zicht of buitenruimte, en vroeg volgeboekt. De oplossing die de meeste gezinnen kiezen: [een stacaravan huren in Le Portel](/blog/stacaravan-huren-le-portel), **op 10 minuten van het aquarium**, aan de klif- en strandzijde. U wint rust, zeezicht en budget — zie onze volledige [vergelijking hotel / Airbnb / stacaravan](/blog/alternatief-hotel-boulogne-sur-mer) als u nog twijfelt.",
         "Onze twee stacaravans, [Blueportel Prestige](/pages/prestige) (6 personen, 3 slaapkamers) en [Blueportel Horizon](/pages/horizon) (4 personen), staan op camping Le Phare d'Opale boven op de klif van Le Portel: panoramisch zicht over het Kanaal vanaf het overdekte terras, het strand op een paar honderd meter, een volledige keuken voor na het aquarium en eigen parking. Booking-gasten geven onze ligging 9,5/10 — Nausicaá is hun eerste bestemming, de zonsondergang vanaf het terras hun eerste herinnering.",
         "Reserveer vroeg voor de schoolvakanties: dankzij Nausicaá is Le Portel een gewilde uitvalsbasis van april tot september. De [beschikbaarheid staat online](/pages/disponibilites) in realtime.",
       ],

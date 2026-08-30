@@ -28,7 +28,7 @@ export const stacaravanHurenLePortel: BlogArticle = {
     alt: "Stacaravan met zeezicht op de klif in Le Portel, Opaalkust",
   },
   datePublished: "2025-09-15",
-  dateModified: "2026-05-30",
+  dateModified: "2026-08-30",
   readingTimeMinutes: 8,
   intro: [
     "Wilt u een stacaravan huren in Le Portel met echt zeezicht, dan is het adres eenvoudig: **residentiële camping Le Phare d'Opale, boven op de klif, waar onze twee Blueportel-stacaravans recht over het Kanaal uitkijken.** Wij verhuren ze rechtstreeks — geen agentschap, geen platformkosten. U spreekt met de eigenaars, niet met een callcenter.",
@@ -81,7 +81,7 @@ export const stacaravanHurenLePortel: BlogArticle = {
       id: "direct",
       title: "Rechtstreeks boeken: wat u wint",
       paragraphs: [
-        "De meeste stacaravanverhuur loopt via platforms die **servicekosten (12 tot 16%), forfaitaire schoonmaakkosten en commissies** toevoegen. Boek rechtstreeks bij ons en u betaalt de eerlijke prijs, met één aanspreekpunt — wij — bereikbaar voor en tijdens uw verblijf.",
+        "De meeste stacaravanverhuur loopt via platforms die **servicekosten (12 tot 16%), forfaitaire schoonmaakkosten en commissies** toevoegen. [Boek rechtstreeks bij ons online](/pages/reserver) en u betaalt de eerlijke prijs, met één aanspreekpunt — wij — bereikbaar voor en tijdens uw verblijf.",
         "Concreet ontvangen onze gasten de **getijdentijden**, de strandkaart en onze tips, en passen wij de aankomsttijd aan uw reis aan. Een vraag over uw data? De [contactpagina](/pages/contact) antwoordt meestal dezelfde dag.",
       ],
     },
