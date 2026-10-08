@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blueportel.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://blueportel.fr';
 
 export async function GET() {
   const robotsTxt = `# robots.txt pour Blueportel

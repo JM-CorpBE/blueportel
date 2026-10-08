@@ -6,6 +6,7 @@ import { accommodations } from "../../data/accommodations";
 import HomeFAQ from "../home/HomeFAQ";
 import type { FAQItem } from "../home/HomeFAQ";
 import { JsonLdVacationRental } from "../seo/JsonLdVacationRental";
+import { JsonLdFAQPage } from "../seo/JsonLdFAQPage";
 import type { Locale } from "../../i18n/locales";
 
 type PrestigePageProps = {
@@ -36,6 +37,7 @@ export default function PrestigePage({ locale, labels }: PrestigePageProps) {
   return (
     <div className="w-full overflow-x-hidden bg-white">
       <JsonLdVacationRental locale={locale as Locale} />
+      <JsonLdFAQPage items={labels.faqItems} />
       {/* Breadcrumb */}
       <div className="w-full px-4 sm:px-6 lg:px-8 pt-6">
         <div className="max-w-7xl mx-auto">
@@ -76,7 +78,7 @@ export default function PrestigePage({ locale, labels }: PrestigePageProps) {
                   </span>
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
-                  Prestige
+                  {locale === "en" ? "Prestige — Seafront Mobile Home for 6" : locale === "nl" ? "Prestige — Stacaravan aan zee voor 6" : "Prestige — Mobil-home 6 personnes face à la mer"}
                   <span className="mt-2 block text-base sm:text-lg font-normal text-slate-500">
                     {prestige.tagline}
                   </span>
@@ -88,9 +90,9 @@ export default function PrestigePage({ locale, labels }: PrestigePageProps) {
                 {[
                   `${prestige.capacity} ${labels.capacity}`,
                   `${prestige.bedrooms} ${labels.bedrooms}`,
-                  "Vue mer",
-                  "Terrasse 12 m²",
-                  "Climatisation",
+                  locale === "en" ? "Sea view" : locale === "nl" ? "Zeezicht" : "Vue mer",
+                  locale === "en" ? "Terrace 12 m²" : locale === "nl" ? "Terras 12 m²" : "Terrasse 12 m²",
+                  locale === "en" ? "Air conditioning" : locale === "nl" ? "Airco" : "Climatisation",
                 ].map((spec) => (
                   <span
                     key={spec}
@@ -137,6 +139,48 @@ export default function PrestigePage({ locale, labels }: PrestigePageProps) {
         subtitle={labels.faqSubtitle}
         items={labels.faqItems}
       />
+
+      {/* Que faire autour */}
+      <section className="w-full px-4 sm:px-6 lg:px-8 py-10 sm:py-14">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-6 text-center">
+            {locale === "nl" ? "Wat te doen in de buurt" : locale === "en" ? "What to do nearby" : "Que faire autour"}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <Link
+              href={`/${locale}/blog/${locale === "nl" ? "nausicaa-bezoeken-complete-gids" : locale === "en" ? "visit-nausicaa-complete-guide" : "visiter-nausicaa-guide-complet"}`}
+              className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition-all"
+            >
+              <p className="font-semibold text-slate-900 mb-1">Nausicaá</p>
+              <p className="text-sm text-slate-500">
+                {locale === "nl" ? "Complete gids: tickets, openingsuren & tips" : locale === "en" ? "Complete guide: tickets, hours & tips" : "Guide complet : tarifs, horaires et astuces"}
+              </p>
+            </Link>
+            <Link
+              href={`/${locale}/blog/${locale === "nl" ? "wat-te-doen-opaalkust" : locale === "en" ? "things-to-do-opal-coast" : "que-faire-cote-opale"}`}
+              className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition-all"
+            >
+              <p className="font-semibold text-slate-900 mb-1">
+                {locale === "nl" ? "25 activiteiten" : locale === "en" ? "25 activities" : "25 incontournables"}
+              </p>
+              <p className="text-sm text-slate-500">
+                {locale === "nl" ? "Wat te doen aan de Opaalkust" : locale === "en" ? "Things to do on the Opal Coast" : "Que faire sur la Côte d'Opale"}
+              </p>
+            </Link>
+            <Link
+              href={`/${locale}/blog/${locale === "nl" ? "mooiste-stranden-opaalkust" : locale === "en" ? "best-beaches-opal-coast" : "plus-belles-plages-cote-opale"}`}
+              className="rounded-xl border border-slate-200 p-5 hover:border-blue-300 hover:shadow-md transition-all"
+            >
+              <p className="font-semibold text-slate-900 mb-1">
+                {locale === "nl" ? "Mooiste stranden" : locale === "en" ? "Best beaches" : "Plus belles plages"}
+              </p>
+              <p className="text-sm text-slate-500">
+                {locale === "nl" ? "De 12 mooiste stranden, gerangschikt" : locale === "en" ? "The 12 best beaches, ranked" : "Les 12 plus belles plages, classées"}
+              </p>
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* Final CTA */}
       <section className="w-full px-4 sm:px-6 lg:px-8 pb-16 sm:pb-20">

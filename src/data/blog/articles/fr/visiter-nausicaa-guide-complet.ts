@@ -5,9 +5,9 @@ export const visiterNausicaa: BlogArticle = {
   translationKey: "nausicaa-complete-guide",
   locale: "fr",
   category: "guide",
-  metaTitle: "Visiter Nausicaá 2026 : tarifs, horaires, durée et astuces",
+  metaTitle: "Visiter Nausicaá 2026 : tarifs, horaires et 10 astuces d'hôtes locaux",
   metaDescription:
-    "Préparez votre visite de Nausicaá, le plus grand aquarium d'Europe : billets et tarifs 2026, durée idéale, meilleurs créneaux pour éviter la foule, parcours conseillé, où dormir et que faire autour. Conseils d'hôtes locaux.",
+    "Tarifs 2026, horaires, créneaux sans foule et parcours salle par salle : le guide Nausicaá par des hôtes locaux qui y emmènent leurs voyageurs depuis des années.",
   keywords: [
     "Nausicaá",
     "visiter Nausicaá",

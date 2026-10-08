@@ -5,9 +5,9 @@ export const nausicaaBezoeken: BlogArticle = {
   translationKey: "nausicaa-complete-guide",
   locale: "nl",
   category: "guide",
-  metaTitle: "Nausicaá bezoeken 2026: tickets, openingsuren, duur & tips",
+  metaTitle: "Nausicaá bezoeken 2026: tickets, openingsuren & 10 tips van lokale gastheren",
   metaDescription:
-    "Bereid uw bezoek aan Nausicaá voor, het grootste aquarium van Europa: tickets en prijzen 2026, ideale duur, beste tijdsloten zonder drukte, aanbevolen route, waar overnachten en wat te doen in de buurt.",
+    "Prijzen 2026, openingsuren, rustige tijdsloten en zaal-per-zaal route: de Nausicaá-gids door gastheren die er al jaren hun gasten naartoe sturen.",
   keywords: [
     "Nausicaá",
     "Nausicaá bezoeken",

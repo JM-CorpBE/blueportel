@@ -4,7 +4,20 @@ import { locales, type Locale } from "../src/i18n/locales";
 import { getArticles, getTranslations } from "../src/data/blog";
 import { articleUrl, blogIndexUrl, localeOrigins } from "../src/data/blog/metadata";
 
-const lastModified = new Date("2026-06-11");
+/** Fallback pour les pages statiques — mis à jour manuellement lors de changements majeurs. */
+const staticLastModified = new Date("2026-10-08");
+
+/** Date la plus récente parmi tous les articles, utilisée pour les index blog. */
+function latestArticleDate(): Date {
+  let latest = staticLastModified;
+  for (const locale of locales) {
+    for (const article of getArticles(locale)) {
+      const d = new Date(article.dateModified);
+      if (d > latest) latest = d;
+    }
+  }
+  return latest;
+}
 
 const hreflangCodes: Record<Locale, string> = {
   fr: "fr-FR",
@@ -54,7 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of locales) {
       entries.push({
         url: pageUrl(locale, path),
-        lastModified,
+        lastModified: staticLastModified,
         changeFrequency: "monthly",
         priority,
         alternates: { languages: staticLanguages(path) },
@@ -71,7 +84,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const locale of locales) {
     entries.push({
       url: blogIndexUrl(locale),
-      lastModified,
+      lastModified: latestArticleDate(),
       changeFrequency: "weekly",
       priority: 0.8,
       alternates: { languages: blogLanguages },

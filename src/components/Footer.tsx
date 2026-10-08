@@ -111,12 +111,7 @@ export default function Footer({ dictionary, locale: initialLocale }: FooterProp
             </h3>
             <div className="flex items-start gap-2 sm:gap-3 text-sm sm:text-base text-gray-700">
               <Link2 className="w-4 h-4 sm:w-5 sm:h-5 text-blue-500 flex-shrink-0 mt-1" />
-              <Link
-                href="http://www.annuaire-google.com"
-                className="flex items-center gap-2 sm:gap-3 hover:text-blue-500 transition-colors"
-              >
-                {activeDictionary.ressourceLines}
-              </Link>
+              <span>{activeDictionary.ressourceLines}</span>
             </div>
           </div>
         

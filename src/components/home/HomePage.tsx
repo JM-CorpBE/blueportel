@@ -1,5 +1,6 @@
 import type { HomeDictionary } from "../../i18n/home/types";
 import { JsonLdVacationRental } from "../seo/JsonLdVacationRental";
+import { JsonLdFAQPage } from "../seo/JsonLdFAQPage";
 import { accommodations } from "../../data/accommodations";
 
 import Hero from "./hero";
@@ -31,6 +32,7 @@ export default function HomePage({ dictionary }: HomePageProps) {
   return (
     <>
       <JsonLdVacationRental locale={locale} />
+      <JsonLdFAQPage items={faq.items} />
       <div className="w-full overflow-x-hidden bg-white">
 
         {/* Hero */}

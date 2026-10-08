@@ -10,7 +10,7 @@ import { getArticleBySlug, getTranslations } from "./index";
  */
 export const localeOrigins: Record<Locale, string> = {
   fr: "https://blueportel.fr",
-  en: "https://blueportel.com",
+  en: "https://blueportel.fr",
   nl: "https://blueportel.fr",
 };
 

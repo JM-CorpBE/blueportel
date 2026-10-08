@@ -3,7 +3,7 @@ import MarvillaPage from "../../../../src/components/marvilla/MarvillaPage";
 import { locales } from "../../../../src/i18n/locales";
 import type { Metadata } from "next";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://blueportel.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://blueportel.fr";
 
 export async function generateMetadata(): Promise<Metadata> {
   const dictionary = await getMarvillaDictionary("fr");
