@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
-import ReserverPage, { reserverCopy } from "../../../../src/components/reserver/ReserverPage";
+import ReserverPage from "../../../../src/components/reserver/ReserverPage";
+import { reserverCopy } from "../../../../src/components/reserver/reserver-data";
 
 export const metadata: Metadata = {
   title: reserverCopy.fr.metaTitle,
